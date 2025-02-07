@@ -1,6 +1,8 @@
-#Rafael de Almeida de Magalhaes
-Idade: 16 anos
-Signo: Escorpião
-Hobby: Jogar volei
-Tambem gosto de jogar no xbox porem é raro ter tempo.
-Eu amo a aula de sumba mais amo mesmo a de programação de aplicativos.
+x = 34 - 23 #um comentario
+y = "Hello" #outro comentario
+z = 3.45
+if z == 3.45 or y == "Hello":
+    x = x + 1
+    y = y + " World" #concatenação de strings
+    print(x)
+    print(y)
