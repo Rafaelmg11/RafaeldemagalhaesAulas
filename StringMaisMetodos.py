@@ -51,3 +51,10 @@ print (nome.title(),"\n")
 nome = " rafael de almeida de magalhaes "
 print(nome.strip(),"\n")
 
+
+#RETORNA true OU false PARA UM TESTE DE UMA STRING SE INICIA COM UM TEXTO ESPECIFICO.
+nome = "rafael 2008"
+print(nome.startswith("raf"),"\n")
+print(nome.startswith("Raf"),"\n")
+
+
