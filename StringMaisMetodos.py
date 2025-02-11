@@ -37,3 +37,17 @@ nome = "Rafael"
 print(nome.replace('a','u'),"\n")
 
 
+#SEPARA O TEXTO string BASEADO EM ALGUM CARACTERE INDICADO
+nome = "Rafael @ Ana Beatriz"
+print(nome.split('@'),"\n")
+
+
+#COLOCA TODAS AS LETRAS INICIAIS EM MAIUSCULAS
+nome = "Rafael de Almeida de Magalhaes"
+print (nome.title(),"\n")
+
+
+#RETIRA OS CARACTERES INDESEJDADOS, COMO POR EXEMPLO ESPAÇOS QUE NAO AGRAGAM VALOR
+nome = " rafael de almeida de magalhaes "
+print(nome.strip(),"\n")
+
